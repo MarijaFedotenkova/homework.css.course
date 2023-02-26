@@ -14,6 +14,7 @@
                          "f f f f f f f f f f f f";                  
 }
 .logo{
+    
     grid-area: l;
     border: 1px solid yellow;
     background-color: lightyellow;
@@ -27,6 +28,7 @@
     grid-area: h;
     border: 1px solid greenyellow;
     background-color: lightgreen;
+
 }
 .content{
     grid-area: c;
@@ -55,5 +57,8 @@
     background-color: lightseagreen;
 }
 .text-center{
-    text-align: center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
